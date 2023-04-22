@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+
+body {
+  padding-top: 5%;
+
+  background-color: ghostwhite;
+  font-family: "Dosis", sans-serif;
+  color: black;
+}
+
+#navbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#navbar .nav-link {
+  color: white;
+}
+#navbar .nav-link:hover {
+  color: lime;
+}
+#navbar .nav-brand {
+  color: gainsboro;
+  font-size: 1.5rem;
+}
+#title-head {
+  font-weight: 100;
+  font-size: 4rem;
+}
+.navbar-scrolled {
+  background-color: white;
+  transition: 500ms;
+}
+
+.blurb h2 {
+  color: gray;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+.blurp p {
+  color: gray;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+@media (max-witdth: 1200px) {
+  #title-head {
+    font-size: 3rem;
+  }
+}
